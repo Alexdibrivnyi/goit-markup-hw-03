@@ -242,6 +242,10 @@ padding-bottom: 50px;
   padding-bottom: 94px;
 }
 
+.team {
+  background: #F5F4FA;
+}
+
 .team-text {
   font-size: 16px;
   line-height: 1.18;
@@ -259,6 +263,7 @@ padding-bottom: 50px;
 
 .all-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   align-items: ;
@@ -300,7 +305,7 @@ padding-bottom: 50px;
 }
 
 
-/*------------------------------------FOOTER-----------------------------------*/
+/*--------------------------------FOOTER-----------------------------------*/
 
 .address-link {
   font-size: 14px;
