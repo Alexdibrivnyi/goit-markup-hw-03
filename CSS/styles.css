@@ -52,7 +52,7 @@ ul, ol{
 }
 
 .container {
-  width: 1200;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -76,8 +76,8 @@ ul, ol{
 .logo-link {
   text-decoration: none;
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-link {
@@ -109,7 +109,6 @@ ul, ol{
 
 .list {
   list-style: none;
-  width: calc((100% - 60px) / 3);
 }
 
 .link {
@@ -141,8 +140,7 @@ ul, ol{
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   max-width: 696px;
 }
 
@@ -152,7 +150,6 @@ ul, ol{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: centert;
   text-align: center;
   letter-spacing: 0.06em;
@@ -160,6 +157,7 @@ ul, ol{
   color: #ffffff;
   background-color: #2196f3;
   padding: 10px 32px;
+  border-radius: 3px;
 }
 
 .portfolio-checklist {
@@ -170,12 +168,16 @@ align-items: center;
 padding-top: 100px;
 padding-bottom: 50px;
 }
+
 .portfolio-list {
   display: flex;
 }
 
 .main-title {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .title {
@@ -195,10 +197,10 @@ padding-bottom: 50px;
   color: #757575;
 }
 
-.benefits-list {
-  display: inline-block;
+.advantages {
+  display: flex;
+  gap: 30px;
 }
-
 
 
 .benefits {
@@ -209,7 +211,6 @@ padding-bottom: 50px;
   text-transform: uppercase;
   color: #212121;
   padding-bottom: 10px;
-  padding-top: 94px;
   align-items: baseline;
 }
 
@@ -236,14 +237,15 @@ padding-bottom: 50px;
   padding-bottom: 10px;
 }
 
-.doing-list {
-  display: inline-block;
-  padding-right: 30px;
-  padding-bottom: 94px;
+.doing {
+  display: flex;
+  gap: 30px;
 }
 
 .team {
   background: #F5F4FA;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-text {
@@ -255,10 +257,9 @@ padding-bottom: 50px;
   padding-bottom: 30px;
 }
 
-.team-list {
-  display: inline-block;
-  padding-right: 30px;
-  margin-bottom: 94px;
+.our-team {
+  display: flex;
+  gap: 30px;
 }
 
 .all-list {
@@ -382,9 +383,6 @@ padding-bottom: 50px;
     padding-bottom: 20px;
 }
 
-.list {
-  padding-bottom: 9px;
-}
 
 .section {
   padding-top: 94px;
