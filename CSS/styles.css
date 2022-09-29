@@ -24,6 +24,7 @@ body {
 }
 
 .header-connect {
+  display: flex;
   margin-left: auto;
 }
 
@@ -72,7 +73,6 @@ ul, ol{
 }
 
 
-
 .logo-link {
   text-decoration: none;
   margin-right: 93px;
@@ -96,6 +96,7 @@ ul, ol{
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-right: 50px;
 }
 
 .header-tel {
@@ -142,6 +143,7 @@ ul, ol{
   color: #FFFFFF;
   max-width: 696px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -150,7 +152,7 @@ ul, ol{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: centert;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -166,8 +168,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-top: 94px;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .portfolio-list {
@@ -227,7 +228,12 @@ padding-bottom: 50px;
 }
 
 .title {
-padding-bottom: 50px;
+margin-bottom: 50px;
+}
+
+.team-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -237,14 +243,15 @@ padding-bottom: 50px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
 .team-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #FFFFFF;
 }
+
 
 .doing {
   display: flex;
@@ -270,13 +277,11 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 30px;
 }
 
 .our-team {
   display: flex;
   gap: 30px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .all-list {
@@ -307,18 +312,94 @@ border-radius: 0px 0px 4px 4px;
   color: #757575;
 }
 
-.portfolio-button {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 8px;
+
+.portfolio-button-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 25px;
+}
+
+.portfolio-button-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 22px;
+}
+
+.portfolio-button-3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 22px;
+}
+
+.portfolio-button-4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 22px;
+}
+
+.portfolio-button-5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border-radius: 4px;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+padding: 6px 22px;
 }
 
 .portfolio-items {
@@ -350,6 +431,8 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contacts-address-link {
@@ -359,7 +442,6 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-top: 20px;
   padding-bottom: 9px;
 }
 
@@ -371,7 +453,6 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
   padding-bottom: 9px;
 }
 
@@ -383,8 +464,6 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
-  padding-bottom: 60px;
 }
 
 .contacts-address-link:hover,
@@ -405,7 +484,6 @@ border-radius: 0px 0px 4px 4px;
 .span-footer{
     color: #FFFFFF;
     display: inline-block;
-    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -413,4 +491,15 @@ border-radius: 0px 0px 4px 4px;
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.logo-link-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
